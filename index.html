@@ -3,17 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>team-work-shade</title>
 </head>
-<body>
+<body class="font-[Karla]">
     
     <!-- Abdulaziz start -->
 
     <!-- Header start -->
 
     <header class="header">
+        <div class="container w-[1150px] mx-auto py-[20px]">
+            <div class="header-box flex justify-between items-center">
+                <ul class="header-list flex items-center gap-[35px] py-[20px]">
+                    <li class="header-item-img mr-[20px]">
+                        <a href="#">
+                            <img class="header-img" src="./src/assets/svg/logo.svg" alt="header-logo" width="115" height="30">
+                        </a>
+                    </li>
+                    <li class="header-item pt-[4px]">
+                        <a class="header-link text-[16px] font-medium transition ease duration-500 hover:text-[#258aff]" href="#">Features</a>
+                    </li>
+                    <li class="header-item pt-[4px]">
+                        <a class="header-link text-[16px] font-medium transition ease duration-500 hover:text-[#258aff]" href="#">Services</a>
+                    </li>
+                    <li class="header-item pt-[4px]">
+                        <a class="header-link text-[16px] font-medium transition ease duration-500 hover:text-[#258aff]" href="#">Pricing</a>
+                    </li>
+                    <li class="header-item pt-[4px]">
+                        <a class="header-link text-[16px] font-medium transition ease duration-500 hover:text-[#258aff]" href="#">Contact</a>
+                    </li>
+                </ul>
 
+                <button class="header-btn px-[35px] py-[10px] border-[3px] border-solid border-[#258aff] rounded-[5px] text-[16px] font-bold text-[#258aff]">Get Started</button>
+            </div>
+        </div>
     </header>
 
     <!-- Header end -->
